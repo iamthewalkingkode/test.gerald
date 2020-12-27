@@ -1,0 +1,96 @@
+[
+    {
+        "id": "1",
+        "from": {
+            "name": "Felicia Johnson",
+            "email": "feljohn@gmail.com",
+            "avatar": "assets/img/users/user.png"
+        },
+        "subject": "Dribble invite - My works",
+        "attachments": [
+            {
+                "type": "image",
+                "source": "assets/img/img10.jpg",
+                "name": "img10.jpg",
+                "size": "3.2mb"
+            }
+        ],
+        "message": "sss",
+        "date": "9:45 AM",
+        "read": false
+    },
+    {
+        "id": "2",
+        "from": {
+            "name": "Frank Hook",
+            "email": "frankhook@inbox.com",
+            "avatar": "assets/img/users/user2.png"
+        },
+        "subject": "Appointment shift",
+        "attachments": [],
+        "message": "sss",
+        "date": "7:32 AM",
+        "read": false,
+        "conversations": 2
+    },
+    {
+        "id": "3",
+        "from": {
+            "name": "Frigma Team",
+            "email": "support@figma.com",
+            "avatar": "assets/img/users/figma.png"
+        },
+        "subject": "Welcome to Figma 3.0",
+        "attachments": [],
+        "message": "sss",
+        "date": "Jun 23",
+        "read": true
+    },
+    {
+        "id": "4",
+        "from": {
+            "name": "John Locke",
+            "email": "johnlocke@gmail.com",
+            "avatar": ""
+        },
+        "subject": "How about Working Together?",
+        "attachments": [
+            {
+                "type": "image",
+                "source": "assets/img/img10.jpg",
+                "name": "img10.jpg",
+                "size": "3.2mb"
+            },
+            {
+                "type": "image",
+                "source": "assets/img/img11.jpg",
+                "name": "img11.jpg",
+                "size": "32.8kb"
+            }
+        ],
+        "message": "sss",
+        "date": "Jun 23",
+        "read": true,
+        "conversations": 3
+    },
+    {
+        "id": "5",
+        "from": {
+            "name": "Felicia Likes",
+            "email": "ilikefelicia@gmail.com",
+            "avatar": "assets/img/users/user4.png"
+        },
+        "subject": "This weekend's Road Trip details",
+        "attachments": [
+            {
+                "type": "image",
+                "source": "assets/img/img11.jpg",
+                "name": "img10.jpg",
+                "size": "3.2mb"
+            }
+        ],
+        "message": "sss",
+        "date": "Jun 22",
+        "read": true
+    }
+]

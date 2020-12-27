@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Name 1",
+        "avatar": "assets/img/users/user4.png",
+        "online": true
+    },
+    {
+        "name": "Name 2",
+        "avatar": "assets/img/users/user2.png",
+        "online": true
+    },
+    {
+        "name": "Name 3",
+        "avatar": "assets/img/users/user3.png",
+        "online": true
+    }
+]

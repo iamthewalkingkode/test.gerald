@@ -1,0 +1,44 @@
+$primary: #4580e5;
+$primary-hover: #0065ef;
+
+$secondary: #9097c4;
+$secondary-hover: #7780b7;
+
+$success: #00c07e;
+$success-hover: #009a65;
+
+$danger: #fc5661;
+$danger-hover: #fb2432;
+
+$warning: #f5a623;
+$warning-hover: #e7940b;
+
+$info: #0198e8;
+$info-hover: #0177b5;
+
+$light: #f8f9fa;
+$light-hover: #e2e6ea;
+
+$dark: #202020;
+$dark-hover: #000;
+
+
+.primary {
+    color: $primary !important;
+}
+
+.info {
+    color: $info !important;
+}
+
+.success {
+    color: $success !important;
+}
+
+.danger {
+    color: $danger !important;
+}
+
+.warning {
+    color: $warning !important;
+}

@@ -1,0 +1,54 @@
+@import '../../assets/scss/variables.scss';
+
+#GSider {
+    overflow: auto;
+    height: 100vh;
+    position: fixed;
+    left: 0px;
+    background-color: #fff;
+    border-right: 1px solid #eee;
+
+    .ant-menu {
+        margin: 0;
+        padding: 0;
+        background-color: #fff;
+        border: 0px;
+    }
+
+    .ant-menu-item {
+        color: #4c4a4a;
+        border-left: 3px solid #fff !important;
+        padding-left: 50px !important;
+        height: 60px;
+        line-height: 60px;
+        margin: 0;
+
+        span.t {
+            float: left;
+        }
+
+        .ant-badge {
+            // position: absolute;
+            // right: 0;
+            float: right;
+
+            .ant-badge-count {
+                font-weight: bold;
+                color: $primary !important;
+                margin-top: 20px;
+                background-color: rgba($primary, 0.3) !important;
+            }
+        }
+
+        &:after {
+            border: 0px;
+        }
+    }
+
+    .ant-menu-item-selected {
+        color: $primary !important;
+        border-left: 3px solid $primary !important;
+        background-color: #fcfcfc !important;
+        font-weight: bold;
+    }
+}

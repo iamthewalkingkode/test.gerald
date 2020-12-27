@@ -1,0 +1,204 @@
+@import '../../assets/scss/variables.scss';
+
+#Inbox {
+    .messages {
+        border-right: 1px solid #eee;
+        width: 35%;
+        float: left;
+
+
+        .ant-tabs-nav {
+            margin: 0;
+
+            .ant-tabs-nav-list {
+                width: 100%;
+            }
+
+            .ant-tabs-tab {
+                margin: 0;
+                padding: 12px 16px;
+                background: #fff;
+                border: 0px;
+                border-top: 3px solid #fff;
+                width: 33.36%;
+                font-size: 14px;
+                border-bottom: 1px solid #eee;
+                color: #a5a4a4;
+
+                &:first-child {
+                    border-left: 1px solid #fff;
+                }
+
+                &:last-child {
+                    border-right: 1px solid #fff;
+                }
+
+                &.ant-tabs-tab-active {
+                    border: 1px solid #eee;
+                    border-bottom: 0px;
+                    border-top: 3px solid $primary;
+                }
+            }
+        }
+
+        .ant-tabs-content-holder {
+            height: calc(100vh - 189px);
+            overflow-y: scroll;
+        }
+
+        .msg-item {
+            padding: 20px 10px 20px 30px;
+            border-bottom: 1px solid #eee;
+            cursor: pointer;
+            transition: 0.3s;
+            border-left: 3px solid #fff;
+
+            &:hover,
+            &.active {
+                background: #f6fafe;
+                border-left: 3px solid #f6fafe;
+            }
+
+            &.active {
+                border-left: 3px solid $primary;
+            }
+        }
+
+        .icon-refresh {
+            color: #fff;
+            width: 25px;
+            height: 25px;
+            text-align: center;
+            line-height: 25px;
+            display: inline-block;
+            border-radius: 50%;
+            cursor: pointer;
+            background: $primary;
+        }
+
+        .ant-badge {
+
+            .ant-badge-count {
+                font-weight: bold;
+                color: #a5a4a4 !important;
+                background-color: #eee !important;
+            }
+        }
+    }
+
+    .messageOpen {
+        width: 65%;
+        float: left;
+        height: calc(100vh - 64px);
+
+        .msgBody {
+            height: 93%;
+            overflow-y: scroll;
+        }
+
+        .msgFooter {
+            // height: 15%;
+            padding: 12px;
+            background-color: #efefef;
+            img {
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+            }
+        }
+
+        .attachments {
+            margin: 50px 0;
+
+            .attachment {
+                width: 150px;
+                height: 100px;
+                float: left;
+                margin-right: 20px;
+                border-radius: 4px;
+                background-color: #eee;
+                cursor: pointer;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+
+                .details {
+                    display: none;
+                    border-radius: 4px;
+                    color: #fff;
+                    background: rgba($primary, 0.8);
+                    height: 100%;
+                    padding: 15px;
+                    font-size: 90%;
+
+                    .det {
+                        margin-top: 20px;
+                    }
+                }
+
+                &:hover {
+                    .details {
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+
+    .avatar {
+        float: left;
+
+        img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+        }
+
+        .name {
+            font-weight: bold;
+            color: $primary !important;
+            background-color: rgba($primary, 0.3) !important;
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            line-height: 40px;
+            text-align: center;
+            font-size: larger;
+        }
+    }
+
+    .names {
+        float: left;
+        margin-left: 15px;
+
+        .name {
+            font-size: 95%;
+            color: #a5a4a4;
+        }
+
+        .subject {
+            font-weight: 500;
+
+            .unread {
+                width: 7px;
+                height: 7px;
+                display: inline-block;
+                border-radius: 50%;
+                margin-left: 10px;
+                background-color: $primary;
+            }
+        }
+    }
+
+    p {
+        color: #a5a4a4;
+        margin-top: 20px;
+    }
+
+    .date {
+        font-size: 95%;
+        color: #a5a4a4;
+        text-align: right;
+    }
+
+}

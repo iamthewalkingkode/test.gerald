@@ -1,0 +1,96 @@
+@import './variables.scss';
+@import './antd.scss';
+@import './animate.min.css';
+
+
+#components-layout-demo-fixed-sider .logo {
+    height: 32px;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 16px;
+}
+
+.site-layout .site-layout-background {
+    background: #fff;
+}
+
+.ant-layout {
+    background-color: #fff;
+}
+
+.ant-layout-content {
+    min-height: calc(100vh - 64px);
+    margin-top: 64px !important;
+}
+
+.ant-layout-header {
+    border-bottom: 1px solid #eee;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-muted {
+    color: #a5a4a4;
+}
+
+.small {
+    font-size: 90%;
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.flex-middle {
+    display: flex;
+    align-items: center;
+
+    &.just {
+        justify-content: center;
+    }
+}
+
+.bb {
+    border-bottom: 1px solid #eee;
+}
+
+.bt {
+    border-top: 1px solid #eee;
+}
+
+.round-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.online {
+    &::after {
+        width: 6px;
+        height: 6px;
+        background-color: #10b759;
+        content: '';
+        position: absolute;
+        bottom: 0;
+        right: 5px;
+        border-radius: 100%;
+        box-shadow: 0 0 0 2px #fff;
+    }
+}
+
+.pointer {
+    cursor: pointer;
+}
